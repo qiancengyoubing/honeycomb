@@ -1,4 +1,5 @@
 angular.module('honeycomb')
+<<<<<<< Updated upstream
 .controller('homeCtrl', ['$scope', function ($scope) {
     //$state.go('home.advList');
 
@@ -40,6 +41,12 @@ angular.module('honeycomb')
             ]
         }
     ]
+=======
+.controller('databaseCtrl', ['$scope', function ($scope) {
+    //$state.go('home.advList');
+
+
+>>>>>>> Stashed changes
 
 
 }]);

@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  ng-app="honeycomb">
 <head>
     <meta charset="UTF-8">
     <title>honeycomb</title>
-    <link rel="stylesheet" href="./libs/bootstrap.min.css">
+    <link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./libs/ace/ace.min.css">
+    <link rel="stylesheet" href="./libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/common.css">
     <script type="text/javascript" src="./libs/angular-min.js"></script>
-    <script type="text/javascript" src="./libs/angular-route"></script>
-</head>
-<body>
+    <script type="text/javascript" src="./libs/angular-ui-router.js"></script>
+    <script type="text/javascript" src="./libs/ocLazyLoad.js"></script>
 
+    <script type="text/javascript" src="./libs/jquery/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="./libs/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./libs/ace/ace.min.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</head>
+<body class="no-skin">
+    <ui-view></ui-view>
 </body>
 </html>
