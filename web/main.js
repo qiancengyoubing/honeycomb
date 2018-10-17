@@ -1,7 +1,7 @@
 'use strict';
 var app = angular.module('honeycomb', ['ui.router', 'oc.lazyLoad']);
 app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise('home');
+    $urlRouterProvider.otherwise('home/database');
     $stateProvider
         .state('login', {
             url: '/login',
@@ -69,7 +69,7 @@ app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $u
             controller:'roleConfigCtrl',
             resolve:{
                 loadMyCtrl:['$ocLazyLoad', function($ocLazyLoad) {
-                    return $ocLazyLoad.load('./business/roleConfig/channel/roleConfigCtrl.js');
+                    return $ocLazyLoad.load('./business/roleConfig/controllers/roleConfigCtrl.js');
                 }]
             }
         })

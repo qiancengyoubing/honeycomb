@@ -1,8 +1,3 @@
-<<<<<<< Updated upstream
-angular.module('honeycomb').controller('home',['$state',function($state){
-    //$state.go('home.advList');
-}])
-=======
 angular.module('honeycomb')
 .controller('homeCtrl', ['$scope', function ($scope) {
     //$state.go('home.advList');
@@ -39,4 +34,3 @@ angular.module('honeycomb')
 
 
 }]);
->>>>>>> Stashed changes
