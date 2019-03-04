@@ -6,7 +6,7 @@
         <div class="platform">
           <!--<img v-show="!collapsed" :src="maxLogo" key="max-logo" />-->
           <!--<img v-show="collapsed" :src="minLogo" key="min-logo" />-->
-          E-lansen
+          蜂巢
         </div>
       </side-menu>
     </Sider>
