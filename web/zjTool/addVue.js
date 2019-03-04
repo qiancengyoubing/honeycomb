@@ -173,18 +173,33 @@ var addFn = {
 
 [
   {
-    'fileName': 'company/website.vue',
+    'fileName': 'company/company_manage.vue',
     'config': {
       filterList: [
         {
           type: 'input',
-          label: "网站名称",
+          label: "公司名称",
           model: 'usage',
         },
         {
-          type: 'input',
-          label: '一级分类',
+          type: 'select',
+          label: '公司行业',
           model: 'usage',
+          optList: [
+            {
+              name: '请选择',
+              value: '0'
+            },
+            {
+              name: '新能源',
+              value: '1'
+            },
+            {
+              name: 'IT',
+              value: '2'
+            },
+          ],
+          optTpl: '<Option value="eValue">eName</Option>'
         },
         {
           type: 'button',
