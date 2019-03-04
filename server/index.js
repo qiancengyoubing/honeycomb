@@ -1,9 +1,11 @@
 var express = require('express');
 var app = express();
 
-app.get('/', function (req, res) {
-    res.send('Hello World');
-})
+var company = require('./api/company');
+var website = require('./api/website');
+
+app.use('/company',company);
+app.use('/website',website);
 
 var server = app.listen(8081, function () {
 
