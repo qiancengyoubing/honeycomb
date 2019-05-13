@@ -18,7 +18,7 @@ router.all('*', function(req, res, next) {
     res.header("Content-Type", "application/json;charset=utf-8");
     next();
 });
-
+app.use('/public', express.static('public'))
 app.use('/company',company);
 app.use('/website',website);
 
