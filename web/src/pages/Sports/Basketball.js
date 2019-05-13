@@ -1,15 +1,15 @@
 import { Component } from 'react'
 
-class Website extends Component {
+class Basketball extends Component {
   state = {
 
   };
 
   render () {
     return (
-      '网址'
+      '篮球'
     )
   };
 }
 
-export default Website;
+export default Basketball;

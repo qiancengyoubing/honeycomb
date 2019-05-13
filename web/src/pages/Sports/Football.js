@@ -1,15 +1,15 @@
 import  { Component } from 'react'
 
-class Person extends Component {
+class Football extends Component {
   state = {
 
   };
 
   render () {
     return (
-      '人员'
+      '篮球'
     )
   };
 }
 
-export default Person;
+export default Football;

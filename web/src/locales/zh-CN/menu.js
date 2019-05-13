@@ -3,6 +3,15 @@ export default {
   'menu.login': '登录',
   'menu.register': '注册',
   'menu.register.result': '注册结果',
+  'menu.enterprise' : '企业',
+  'menu.enterprise.company' : '公司',
+  'menu.enterprise.person' : '员工',
+  'menu.enterprise.website' : '网站',
+
+  'menu.sports': '体育',
+  'menu.sports.basketball': '篮球',
+  'menu.sports.football': '足球',
+
   'menu.dashboard': 'Dashboard',
   'menu.dashboard.analysis': '分析页',
   'menu.dashboard.monitor': '监控页',

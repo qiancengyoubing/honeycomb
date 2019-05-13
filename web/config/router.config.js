@@ -23,30 +23,7 @@ export default [
     component: '../layouts/BasicLayout',
     Routes: ['src/pages/Authorized'],
     routes: [
-      // dashboard
-      { path: '/', redirect: '/dashboard/analysis', authority: ['admin', 'user'] },
-      {
-        path: '/dashboard',
-        name: 'dashboard',
-        icon: 'dashboard',
-        routes: [
-          {
-            path: '/dashboard/analysis',
-            name: 'analysis',
-            component: './Dashboard/Analysis',
-          },
-          {
-            path: '/dashboard/monitor',
-            name: 'monitor',
-            component: './Dashboard/Monitor',
-          },
-          {
-            path: '/dashboard/workplace',
-            name: 'workplace',
-            component: './Dashboard/Workplace',
-          },
-        ],
-      },
+      { path: '/', redirect: '/enterprise/company', authority: ['admin', 'user'] },
       // 企业
       {
         path: '/enterprise',
@@ -72,17 +49,18 @@ export default [
       },
       // 体育
       {
-        path: '/dashboard',
-        name: 'dashboard',
-        icon: 'dashboard',
+        path: '/sports',
+        name: 'sports',
+        icon: 'sports',
         routes: [
           {
-            path: '/dashboard/analysis',
+            path: '/sports/basketball',
             name: '篮球',
-            component: './Dashboard/Analysis',
+            component: './Sports/Basketball',
           },
         ],
       },
+
 
 
       // forms
