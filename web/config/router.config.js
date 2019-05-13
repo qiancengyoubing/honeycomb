@@ -47,6 +47,44 @@ export default [
           },
         ],
       },
+      // 企业
+      {
+        path: '/enterprise',
+        name: 'enterprise',
+        icon: 'enterprise',
+        routes: [
+          {
+            path: '/enterprise/company',
+            name: 'company',
+            component: './Enterprise/Company',
+          },
+          {
+            path: '/enterprise/website',
+            name: 'website',
+            component: './Enterprise/Website',
+          },
+          {
+            path: '/enterprise/person',
+            name: 'person',
+            component: './Enterprise/Person',
+          },
+        ],
+      },
+      // 体育
+      {
+        path: '/dashboard',
+        name: 'dashboard',
+        icon: 'dashboard',
+        routes: [
+          {
+            path: '/dashboard/analysis',
+            name: '篮球',
+            component: './Dashboard/Analysis',
+          },
+        ],
+      },
+
+
       // forms
       {
         path: '/form',
